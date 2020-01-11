@@ -1,0 +1,6 @@
+com\xhl\service\IUserService.class
+com\xhl\controller\UserController.class
+com\xhl\entity\User.class
+com\xhl\mapper\IUserMapper.class
+com\xhl\service\impl\UserServiceImpl.class
+com\xhl\Application.class
