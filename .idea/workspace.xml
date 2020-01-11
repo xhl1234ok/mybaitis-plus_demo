@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5e3c5a-219b-48f6-bea0-be6eaca55ab1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/SampleTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="7a5e3c5a-219b-48f6-bea0-be6eaca55ab1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="358">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,7 +142,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -367,7 +365,7 @@
       <workItem from="1578552664635" duration="1349000" />
       <workItem from="1578560206869" duration="1278000" />
       <workItem from="1578712378656" duration="14825000" />
-      <workItem from="1578732696428" duration="276000" />
+      <workItem from="1578732696428" duration="935000" />
     </task>
     <servers />
   </component>
@@ -404,10 +402,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51357000" />
+    <option name="totallyTimeSpent" value="52016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7051887" visible="true" weight="0.22087745" />
@@ -876,8 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/SampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="358">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
