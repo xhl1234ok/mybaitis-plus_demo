@@ -37,7 +37,6 @@ public class SampleTest {
         user.setName("向tian");
         user.setEmail("12344@qq.com");
         int n=userMapper.insert(user);
-        System.out.println(n);
     }
 
 }
