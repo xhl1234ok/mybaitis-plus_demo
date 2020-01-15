@@ -31,12 +31,13 @@ public class SampleTest {
     }
     @Test
     public void insert() {
-        Sys_user2 user=new Sys_user2();
-        user.setAge(33);
-        user.setId(Long.valueOf(6));
-        user.setName("向tian");
-        user.setEmail("12344@qq.com");
-        int n=userMapper.insert(user);
+//        Sys_user2 user=new Sys_user2();
+//        user.setAge(33);
+//        user.setId(Long.valueOf(11));
+//        user.setName("xiaoshi");
+//        user.setEmail("12344@qq.com");
+//        int n=userMapper.insert(user);
+//        System.out.println(n);
     }
 
 }

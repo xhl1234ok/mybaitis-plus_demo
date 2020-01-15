@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.test.SampleTest" time="0.998" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="com.test.SampleTest" time="0.502" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2018.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
     <property name="java.vm.version" value="25.201-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\IDear椤圭洰\mybaitis_plus_demo"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IDear椤圭洰\mybatis_plus_demo"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\IDear椤圭洰\mybaitis_plus_demo"/>
+    <property name="user.dir" value="D:\IDear椤圭洰\mybatis_plus_demo"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
@@ -61,19 +61,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="insert" classname="com.test.SampleTest" time="0.974"/>
-  <testcase name="testSelect" classname="com.test.SampleTest" time="0.024">
-    <failure message="expected:&lt;5&gt; but was:&lt;6&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<5> but was:<6>
+  <testcase name="insert" classname="com.test.SampleTest" time="0.025"/>
+  <testcase name="testSelect" classname="com.test.SampleTest" time="0.477">
+    <failure message="expected:&lt;5&gt; but was:&lt;10&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<5> but was:<10>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at com.test.SampleTest.testSelect(SampleTest.java:31)
+	at com.test.SampleTest.testSelect(SampleTest.java:29)
 ]]></failure>
     <system-out><![CDATA[----- selectAll method test ------
 Creating a new SqlSession
-SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2caf6912] was not registered for synchronization because synchronization is not active
-JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d6f623d] will not be managed by Spring
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415e0bcb] was not registered for synchronization because synchronization is not active
+INFO{dataSource-1} inited
+JDBC Connection [com.mysql.jdbc.JDBC4Connection@757194dc] will not be managed by Spring
 ==>  Preparing: SELECT id,name,age,email FROM user 
 ==> Parameters: 
 <==    Columns: id, name, age, email
@@ -82,9 +83,13 @@ JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d6f623d] will not be managed by
 <==        Row: 3, Tom, 28, test3@baomidou.com
 <==        Row: 4, Sandy, 21, test4@baomidou.com
 <==        Row: 5, Billie, 24, test5@baomidou.com
+<==        Row: 6, 向tian, 33, 12344@qq.com
 <==        Row: 7, 张三, 33, 12344@qq.com
-<==      Total: 6
-Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2caf6912]
+<==        Row: 8, 张三2, 33, 12344@qq.com
+<==        Row: 9, 向尚, 33, 12344@qq.com
+<==        Row: 11, xiaoshi, 33, 12344@qq.com
+<==      Total: 10
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@415e0bcb]
 ]]></system-out>
   </testcase>
 </testsuite>

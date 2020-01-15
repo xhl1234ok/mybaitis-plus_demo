@@ -1,7 +1,6 @@
 package com.test;
 
 import com.baomidou.mybatisplus.core.conditions.segments.HavingSegmentList;
-import com.xhl.entity.User;
 import com.xhl.service.IUserService;
 
 import java.util.*;
