@@ -29,8 +29,8 @@ public class SampleTest {
         Assert.assertEquals(5, userList.size());
         userList.forEach(System.out::println);
     }
-    @Test
-    public void insert() {
+//    @Test
+//    public void insert() {
 //        Sys_user2 user=new Sys_user2();
 //        user.setAge(33);
 //        user.setId(Long.valueOf(11));
@@ -38,6 +38,10 @@ public class SampleTest {
 //        user.setEmail("12344@qq.com");
 //        int n=userMapper.insert(user);
 //        System.out.println(n);
+//    }
+    @Test
+    public void selectById(){
+
     }
 
 }

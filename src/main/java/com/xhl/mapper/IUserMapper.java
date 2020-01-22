@@ -5,6 +5,7 @@ import com.xhl.entity.Sys_user2;
 
 import org.springframework.stereotype.Repository;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -14,4 +15,5 @@ import java.util.List;
 @Repository
 public interface  IUserMapper extends BaseMapper<Sys_user2> {
 //    public List<User> findByStrtegy()
+    public Sys_user2 selectById(Serializable Id);
 }
