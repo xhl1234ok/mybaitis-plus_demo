@@ -31,5 +31,6 @@ public class ArTest {
         ss.deleteById();
         ss= (Sys_user2) ss.selectById(1);
         System.out.println(ss);
+        System.out.println(123);
     }
 }
