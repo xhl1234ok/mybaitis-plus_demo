@@ -13,7 +13,7 @@ import java.util.List;
  * @Date:2020-1-6下午 2:23
  */
 @Repository
-public interface  IUserMapper extends BaseMapper<Sys_user2> {
+public interface  SysUser2Mapper extends BaseMapper<Sys_user2> {
 //    public List<User> findByStrtegy()
     public Sys_user2 selectById(Serializable Id);
 }
