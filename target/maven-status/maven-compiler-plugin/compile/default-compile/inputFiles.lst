@@ -1,7 +1,12 @@
+D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\controller\ChannelController.java
 D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\service\IUserService.java
+D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\service\impl\ChannelServiceImpl.java
 D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\config\PageConfig.java
 D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\entity\Sys_user2.java
 D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\service\impl\UserServiceImpl.java
 D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\Application.java
 D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\mapper\SysUser2Mapper.java
+D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\mapper\ChannelMapper.java
+D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\entity\Channel.java
+D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\service\ChannelService.java
 D:\IDear项目\mybatis_plus_demo\src\main\java\com\xhl\controller\UserController.java

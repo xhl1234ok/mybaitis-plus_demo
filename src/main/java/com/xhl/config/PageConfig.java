@@ -7,12 +7,15 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @Author:xianghuilan
  * @Date:2020/02/0411:29
- *  分页插件
+ *
  */
 @Configuration
 public class PageConfig {
+
+    //分页插件
     @Bean
     public PaginationInterceptor paginationInterceptor(){
         return new PaginationInterceptor();
     }
+
 }

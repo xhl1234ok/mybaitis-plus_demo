@@ -36,10 +36,10 @@ public class SampleTest {
 
     @Test
     public void testSelect() {
-        System.out.println(("----- selectAll method test ------"));
-        List<Sys_user2> userList = userMapper.selectList(null);
-        Assert.assertEquals(5, userList.size());
-        userList.forEach(System.out::println);
+//        System.out.println(("----- selectAll method test ------"));
+//        List<Sys_user2> userList = userMapper.selectList(null);
+//        Assert.assertEquals(5, userList.size());
+//        userList.forEach(System.out::println);
     }
 //    @Test
 //    public void insert() {
@@ -101,37 +101,37 @@ public class SampleTest {
 //        list.forEach(System.out::println);
 
         //分页
-        QueryWrapper<Sys_user2> queryWrapper=new QueryWrapper();
-        queryWrapper.likeRight("name","张").lt("age",40);
-        Page<Sys_user2> page=new Page<Sys_user2>(1,2,false);//不查询总记录数
-        IPage page1=userMapper.selectPage(page,queryWrapper);
-        System.out.println("总页数"+page1.getPages());
-        System.out.println("总行数"+page1.getTotal());
-        System.out.println("查询的数据"+page1.getRecords());
+//        QueryWrapper<Sys_user2> queryWrapper=new QueryWrapper();
+//        queryWrapper.likeRight("name","张").lt("age",40);
+//        Page<Sys_user2> page=new Page<Sys_user2>(1,2,false);//不查询总记录数
+//        IPage page1=userMapper.selectPage(page,queryWrapper);
+//        System.out.println("总页数"+page1.getPages());
+//        System.out.println("总行数"+page1.getTotal());
+//        System.out.println("查询的数据"+page1.getRecords());
 
     }
    @Test
     public void update(){
-        Sys_user2 ss=new Sys_user2();
-        ss.setId((long) 1);
-        ss.setAge(38);
-        ss.setEmail("wang@baomidou.com");
-        int num=userMapper.updateById(ss);
-       System.out.println("受影响的行数"+num);
+//        Sys_user2 ss=new Sys_user2();
+//        ss.setId((long) 1);
+//        ss.setAge(38);
+//        ss.setEmail("wang@baomidou.com");
+//        int num=userMapper.updateById(ss);
+//       System.out.println("受影响的行数"+num);
 
 
    }
    @Test
     public void updateWrapper(){
-       UpdateWrapper<Sys_user2> updateWrapper=Wrappers.update();
-       updateWrapper.eq("name","王八").eq("id",2).set("name","小花");
-       int num=userMapper.update(null,updateWrapper);
-       System.out.println("受影响的行数"+num);
+//       UpdateWrapper<Sys_user2> updateWrapper=Wrappers.update();
+//       updateWrapper.eq("name","王八").eq("id",2).set("name","小花");
+//       int num=userMapper.update(null,updateWrapper);
+//       System.out.println("受影响的行数"+num);
    }
     @Test
     public void updateLambda(){
 //        LambdaUpdateWrapper<Sys_user2> lambdaUpdateWrapper = Wrappers.lambdaUpdate();
-        boolean update = new LambdaUpdateChainWrapper<Sys_user2>(userMapper).eq(Sys_user2::getName, "小花").set(Sys_user2::getAge, 52).update();
-        System.out.println(update);
+//        boolean update = new LambdaUpdateChainWrapper<Sys_user2>(userMapper).eq(Sys_user2::getName, "小花").set(Sys_user2::getAge, 52).update();
+//        System.out.println(update);
     }
 }

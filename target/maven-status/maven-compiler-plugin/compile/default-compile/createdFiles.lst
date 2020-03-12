@@ -1,7 +1,7 @@
 com\xhl\service\IUserService.class
 com\xhl\controller\UserController.class
+com\xhl\entity\Sys_user2.class
+com\xhl\Application.class
 com\xhl\mapper\SysUser2Mapper.class
 com\xhl\config\PageConfig.class
 com\xhl\service\impl\UserServiceImpl.class
-com\xhl\entity\Sys_user2.class
-com\xhl\Application.class
